@@ -1,0 +1,27 @@
+.wrap-menu{
+  background: #4A75A7;
+  width: 550px;
+  border-radius: 0px 0px 4px 4px;
+}
+h2{
+  text-align: center;
+  color: #F9FAFB;
+}
+.menu{
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  li{
+    display: inline-block;
+    list-style: none;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    &:hover{
+      color: red;
+    }
+  }
+}
